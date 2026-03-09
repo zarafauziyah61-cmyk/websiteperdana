@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Website Tugas Hyperlink</title>
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: Arial, sans-serif;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  background:#f4f6f9;
+}
+
+/* NAVBAR */
+nav{
+  background:#4e4948;
+  padding:15px;
+  position:fixed;
+  width:100%;
+  top:0;
+  text-align:center;
+}
+
+nav a{
+  color:white;
+  text-decoration:none;
+  margin:0 15px;
+  font-weight:bold;
+  transition:0.3s;
+}
+
+nav a:hover{
+  color:yellow;
+}
+
+/* SECTION */
+section{
+  padding:100px 20px;
+  min-height:100vh;
+}
+
+#home{ background:#ffffff; }
+#profil{ background:#e0f2fe; }
+#about{ background:#fef3c7; }
+#galery{ background:#dcfce7; }
+#kontak{ background:#fce7f3; }
+
+h2{
+  margin-bottom:20px;
+  color:#4d2c08;
+}
+
+.container{
+  max-width:800px;
+  margin:auto;
+  text-align:center;
+}
+
+img{
+  width:150px;
+  margin:10px;
+  border-radius:10px;
+  transition:0.3s;
+}
+
+img:hover{
+  transform:scale(1.1);
+}
+
+/* BUTTON */
+.btn{
+  display:inline-block;
+  margin-top:20px;
+  padding:10px 20px;
+  background:#1e3a8a;
+  color:white;
+  text-decoration:none;
+  border-radius:5px;
+}
+
+.btn:hover{
+  background:#0f172a;
+}
+
+/* FOOTER */
+footer{
+  background:#1e293b;
+  color:white;
+  text-align:center;
+  padding:15px;
+}
+</style>
+
+</head>
+<body>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#profil">Profil</a>
+  <a href="#about">About</a>
+  <a href="#galery">Gallery</a>
+  <a href="#kontak">Kontak</a>
+</nav>
+
+<section id="home">
+<div class="container">
+  <h2>Home</h2>
+  <p>Hallo</p>
+  <p>Selamat datang di website pertamaku</p>
+  <p>Website ini berisi informasi tentang kegemaran aku</p>
+  <a href="https://www.google.com" target="_blank" class="btn">Kunjungi Google</a>
+</div>
+</section>
+
+<section id="profil">
+<div class="container">
+  <h2>Profil</h2>
+  <p>Nama : (Zahra Hamdan Fauziyah)</p>
+  <p>Kelas : (Sistem Informasi Semester 2)</p>
+  <p>Hobi : Berfoto, Bernyanyi & Bermain Game</p>
+  <a href="#home" class="btn">Kembali ke Atas</a>
+</div>
+</section>
+
+<section id="about">
+<div class="container">
+  <h2>About</h2>
+  <p>Website ini dibuat untuk memenuhi tugas mata kuliah</p>
+  <p>Menggunakan HTML & CSS dalam satu file</p>
+  <a href="#home" class="btn">Kembali ke Atas</a>
+</div>
+</section>  
+
+<section id="galery">
+<div class="container">
+  <h2>Gallery</h2>
+  <img src="image/ppppp.jpeg">
+  <img src="image/pp.jpeg">
+  <img src="image/p3.jpeg" alt="">
+  <img src="ppppp.jpeg" alt="">
+  <br>
+  <a href="#home" class="btn">Kembali ke Atas</a>
+</div>
+</section>
+
+<section id="kontak">
+<div class="container">
+  <h2>Kontak</h2>
+  <p>Email : zarafauziyah6116@icloud.com</p>
+  <p>Instagram : @fzyhzaraa</p>
+  <a href="mailto: zarafauziyah6116@icloud.com" class="btn">Kirim Email</a>
+</div>
+</section>
+
+<footer>
+  ©️ 2026 Website Tugas Hyperlink
+</footer>
+
+</body>
+</html>
